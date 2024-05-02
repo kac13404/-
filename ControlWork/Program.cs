@@ -50,8 +50,7 @@ void printA(string[] stringArray)
     Console.Write("[");
     for (int i = 0; i < stringArray.Length; i++)
     {
-        Console.Write($""{ stringArray[i]}
-        "", ");
+        Console.Write($"'{stringArray[i]}', ");
     }
     Console.Write("]");
 }
